@@ -1,0 +1,176 @@
+@charset "utf-8";
+body {
+    background-color: #000000;
+    background-image: -webkit-linear-gradient(270deg,rgba(38,59,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(38,59,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(38,59,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(38,59,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-repeat: no-repeat;
+}
+body wrapper {
+    display: block;
+    width: 1366px;
+    border-top: thick hidden #000000;
+    margin: auto;
+}
+
+nav {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Deadsky;
+    color: #B1FF2C;
+    text-align: center;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 45px;
+}
+a:link{
+    color:#B6FF00;
+    text-decoration:none;
+}
+a:hover{
+    color:#FF2888;
+    text-decoration:none
+}
+a:visited{
+    color:#A000C6;
+     text-decoration: none;
+}
+a:active{
+    color:#00FFA1;
+    text-decoration:none;
+}
+h1{
+    text-align: center;
+    font-family: "Novox Melted Stacked";
+    font-size: 150px;
+    color: #ABFF00;
+    text-transform: uppercase;
+    letter-spacing: 14%;
+    text-shadow: 0px 0px 19px #ADFF3A;
+}
+
+footer{
+    color:#B6FF00;
+    text-decoration:none;
+}
+.homeimg{
+    align-content: center;
+    width: 1366px;
+}
+h2{
+    text-align: center;
+    font-family: "Deadsky";
+    color: #B6FF00;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.newsimg{
+    display: inline-block;
+    width: 562px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.storeimg{
+    width: 230px;
+    margin-top: 57px;
+    margin-left: 186px;
+    margin-right: 57px;
+    margin-bottom: 57px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 241px;
+    display: table-row-group;
+    float: none;
+}
+.videoimg{
+    align-content: center;
+    width: 1366px;
+    height: 1026px;
+}
+.gallery{
+    width: 1366px;
+    height: 1024px;
+    display: table-row;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    z-index: 0;
+}
+.galimg{
+    width: 500px;
+    display: inline-block;
+    align-content: center;
+    margin-left: 422px;
+    margin-top: 52px;
+    margin-bottom: 70px;
+    margin-right: -6px;
+    -webkit-box-shadow: 0px 0px 50px #E7FF55;
+    box-shadow: 0px 0px 50px #E7FF55;
+    left: 65px;
+}
+h3{
+    font-family: "Deadsky";
+    color: #B6FF00;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 58px;
+    text-align: center;
+    line-height: 86px;
+    text-decoration: overline;
+    text-shadow: 0px 8px 25px;
+}
+button{
+    width: 170px;
+    color: #000000;
+    font-family: "Novox Melted Stacked";
+    display: inline-block;
+    margin-left: 613px;
+    -webkit-box-shadow: 0px 7px 34px 6px #CBFF00;
+    box-shadow: 0px 7px 34px 6px #CBFF00;
+    background-color: #7ED600;
+    border-color: #EBFF9E;
+    border-style: hidden;
+    font-size: 19px;
+    text-align: justify;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin-bottom: 52px;
+}
+button:hover{
+    color: #F531FF;
+    background-color: #550045;
+    -webkit-box-shadow: 0px 0px 21px 4px #FF6AED;
+    box-shadow: 0px 0px 21px 4px #FF6AED;
+}
+.merchimg{
+    margin-left: 343px;
+    -webkit-box-shadow: 0px 0px 19px #BEE800;
+    box-shadow: 0px 0px 19px #BEE800;
+    margin-bottom: 168px;
+}
+.priv{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 105px;
+    margin-bottom: 266px;
+    color: #B6FF00;
+    font-family: "Cambria";
+    font-size: large;
+    text-align: left;
+    line-height: 38px;
+}
